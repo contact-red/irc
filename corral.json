@@ -1,0 +1,19 @@
+{
+  "packages": [
+    "irc"
+  ],
+  "deps": [
+    {
+      "locator": "github.com/ponylang/lori.git",
+      "version": "0.18.1"
+    }
+  ],
+  "info": {
+    "description": "IRC client protocol for Pony bots",
+    "homepage": "https://github.com/ponylang/irc",
+    "license": "BSD-2-Clause",
+    "documentation_url": "",
+    "version": "0.0.0",
+    "name": "irc"
+  }
+}

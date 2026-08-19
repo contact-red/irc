@@ -10,10 +10,10 @@
   ],
   "info": {
     "description": "IRC client protocol for Pony bots",
-    "homepage": "https://github.com/ponylang/irc",
+    "homepage": "https://github.com/contact-red/irc",
     "license": "BSD-2-Clause",
     "documentation_url": "",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "name": "irc"
   }
 }

@@ -25,10 +25,3 @@ class val SendRate
   fun burst(): USize => _burst
   fun interval_millis(): U64 => _interval_millis
   fun queue_limit(): USize => _queue_limit
-
-  fun unpaced(): Bool =>
-    """
-    True when this rate imposes no useful delay, which is what a test server
-    on the same machine wants.
-    """
-    _interval_millis <= 1
